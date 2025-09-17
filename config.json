@@ -1,0 +1,13 @@
+{
+  "shoulder_flexion": {
+    "side": "both",
+    "target_angle_up": 160,
+    "target_angle_down": 40,
+    "tolerance_deg": 12,
+    "hold_time_sec": 1.5,
+    "smoothing_window": 5,
+    "min_moving_angle": 8,
+    "max_elbow_flexion_deg": 20,
+    "max_torso_tilt_deg": 12
+  }
+}

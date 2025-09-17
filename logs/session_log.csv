@@ -1,0 +1,17 @@
+timestamp,exercise,metric,value,note
+1758092954.5484838,shoulder_flexion,rep_done,1,angle=157.0
+1758092981.4549081,shoulder_flexion,rep_done,2,angle=152.0
+1758107060.1802795,shoulder_flexion,rep_done,1,angle=171.7
+1758107082.2394657,shoulder_flexion,rep_done,2,angle=175.7
+1758107108.9440992,shoulder_flexion,rep_done,3,angle=167.8
+1758108403.7866027,shoulder_flexion,RIGHT_rep_done,1,ang=162.5
+1758113163.5289161,shoulder_flexion,LEFT_rep_done,1,ang=167.8
+1758113163.5289161,shoulder_flexion,RIGHT_rep_done,1,ang=174.6
+1758113219.5378442,shoulder_flexion,rep_done,1,angle=169.3
+1758113342.9016685,shoulder_flexion,LEFT_rep_done,1,ang=168.5
+1758113342.9016685,shoulder_flexion,RIGHT_rep_done,1,ang=165.6
+1758114058.3373833,shoulder_flexion,RIGHT_rep_done,1,ang=162.0
+1758114058.4115417,shoulder_flexion,LEFT_rep_done,1,ang=159.8
+1758114095.6314015,shoulder_flexion,LEFT_rep_done,2,ang=149.2
+1758115778.0817313,shoulder_flexion,LEFT_rep_done,1,ang=171.5
+1758115778.0817313,shoulder_flexion,RIGHT_rep_done,1,ang=175.3
