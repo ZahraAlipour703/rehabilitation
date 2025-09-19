@@ -21,12 +21,12 @@ class ShoulderFlexionChecker(BaseExerciseChecker):
         self.side = c.get("side", "both").lower()
         self.target_up = float(c.get("target_angle_up", 160))
         self.target_down = float(c.get("target_angle_down", 40))
-        self.tol = float(c.get("tolerance_deg", 20))
-        self.hold_time = float(c.get("hold_time_sec", 3))
+        self.tol = float(c.get("tolerance_deg", 30))
+        self.hold_time = float(c.get("hold_time_sec", 5))
         self.smoother_window = int(c.get("smoothing_window", 7))
         self.min_moving_angle = float(c.get("min_moving_angle", 8))
         self.max_elbow_flexion = float(c.get("max_elbow_flexion_deg", 20))
-        self.max_torso_tilt = float(c.get("max_torso_tilt_deg", 12))
+        self.max_torso_tilt = float(c.get("max_torso_tilt_deg", 20))
 
         # per-side smoothing and hold state
         self.smoothers = {"LEFT": SimpleSmoother(self.smoother_window), "RIGHT": SimpleSmoother(self.smoother_window)}
@@ -181,3 +181,4 @@ class ShoulderFlexionChecker(BaseExerciseChecker):
         t = float(np.dot(p, v) / denom)
         t_clamped = max(0.0, min(1.0, t))
         return t_clamped, overhead, front
+
